@@ -1,0 +1,12 @@
+__pycache__
+imports/__pycache__
+.env
+*.log
+.command_history
+__pycache__
+notes.md
+Framework/.vs
+APISERVER/.vs
+agents.db
+www/Agent.exe
+Framework/Agent/bin/*

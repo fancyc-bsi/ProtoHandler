@@ -1,0 +1,13 @@
+session_name: ProtoHandler
+windows:
+  - window_name: ProtoHandler-cli
+    layout: tiled
+    panes:
+      - shell_command: # pane no. 1
+          - clear && python3 protohandler.py --build_api
+  - window_name: ProtoHandler-events
+    layout: tiled
+    panes:
+      - shell_command:
+          - clear && python3 event_viewer.py
+      - clear && python3 db_updater.py  
