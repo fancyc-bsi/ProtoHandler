@@ -1,0 +1,7 @@
++ Params:
+  - Agent ID:
+    - tab complete for list of active agents 
+
++ Returns:
+  - Tasks:
+    - a list of all tasks and their results

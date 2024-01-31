@@ -1,0 +1,5 @@
++ Params:
+  - None
++ Returns:
+   - Info: starts http server on port 9000
+     - will host files

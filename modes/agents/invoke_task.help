@@ -1,0 +1,96 @@
++ Params:
+	- Agent ID:
+	 - Info:
+     - tab complete for list of connected Agents 
+	- Command:
+	 - Commands
+     [
+      cd
+        - Accepts:
+          - Arguments == directory 
+        - Not Accepts:
+          - File
+        - Example:
+          - Arguments: C:\tmp 
+      mkdir
+        - Accepts:
+          - Arguments == directory
+        - Not Accepts:
+          - File
+        - Example:
+          - Arguments: C:\some-directory
+
+      rmdir
+        - Accepts:
+          - Arguments == directory
+        - Not Accepts:
+          - File
+        - Example:
+          - Arguments: C:\some-directory
+      execute-assembly
+        - Accepts:
+          - File == base64 encoded dotnet framework compiled exe 
+        - Not Accepts:
+          - Arguments
+        - Example:
+          - File: AAAAABASE64ENCODED_EXE_AAAA==
+      inject-handler
+        - Accepts:
+          - Arguments == base64 encoded string from 'create_handler'
+        - Not Accepts:
+          - File
+        - Example:
+          - Arguments: base64_encoded_string
+      ls
+        - Accepts:
+          - Arguments == directory
+        - Not Accepts:
+          - File
+        - Example:
+          - Arguments: C:\some-directory
+      ps
+        - Not Accepts:
+          - File
+          - Arguments
+      make-token
+        - Not Accepts:
+          - File
+          - Arguments
+      pwd
+        - Not Accepts:
+          - File
+          - Arguments
+      rev2self
+        - Not Accepts:
+          - File
+          - Arguments
+      run
+        - Accepts:
+          - Arguments == target program to run 
+        - Not Accepts:
+          - File
+        - Example:
+          - Arguments: notepad.exe
+
+      shell
+        - Accepts:
+          - Arguments == command-prompt command to execute
+        - Not Accepts:
+          - File
+        - Example:
+          - Arguments: dir 
+      shinject
+        - Accepts:
+          - Arguments == process to inject into
+          - File == base64 encoded shellcode created from "generate_shellcode"
+        - Example:
+          - Arguments: 1023
+          - File: base64_encoded_string
+      steal-token
+        - Accepts:
+          - Arguments == process of token to steal 
+        - Not Accepts:
+          - File
+        - Example:
+          - Arguments: 1025 
+		 ]

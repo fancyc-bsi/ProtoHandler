@@ -1,0 +1,7 @@
++ Params:
+	- None
+	- Info: Requires set_vars to be run first
+	- then will generate the shellcode for future use
+		
++ Returns:
+	- encoded shellcode, to be used within the "shinject" command

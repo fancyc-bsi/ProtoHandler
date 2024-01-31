@@ -1,0 +1,14 @@
++ Params:
+	- Command:
+		- Info: Command that will be executed once handler is invoked 
+		- Formats: powershell, or program 
+		- Example: ping google.ca
+	- Handler name:
+		- Info: name of the handler
+		- this will appear in the registry and will be invoked with:
+			- handlerName:\\
+
++ Returns: 
+	- Encoded payloads:
+		- Info: prints encoded payload should be copied for future use
+		- Will be used in conjunction with the 'inject_handler' command

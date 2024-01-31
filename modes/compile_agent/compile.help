@@ -1,0 +1,8 @@
++ Params:
+  - Callbackhost:
+    - Info: the IP address of the APIserver
+  - Callbackport:
+    - Info: matching callback port of the listener created by "listeners"
++ Returns:
+  - Compiled Agent will be located in the 'www' directory 
+    - ready to be hosted via httpserver or smbserver

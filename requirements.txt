@@ -1,0 +1,8 @@
+requests
+pyperclip
+prompt_toolkit
+impacket
+tabulate
+colorlog
+tmuxp
+python-dateutil

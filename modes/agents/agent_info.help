@@ -1,0 +1,6 @@
++ Params:
+	- Agent ID:
+	 -  [press tab for active agents]
+
++ Returns:
+	- Prints metadata table  

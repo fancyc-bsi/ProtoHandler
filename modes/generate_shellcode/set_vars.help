@@ -1,0 +1,14 @@
++ Params:
+	- Msfvenom Payload:
+		- Info: Enter prefix (ctrl+b) + tab and select the payload 
+			- you can start typing and it will auto filter
+	- lhost:
+		- info: lhost to pass to msfconsole
+	- lport:
+		- info: lport to pass to msfconsole 
+	- username:
+		- info: if payload requires a username (windows/adduser)
+			- otherwise leave blank
+	- password:
+		- info: if payloads requires a password (windows/adduser)
+			- otherwise leave blank

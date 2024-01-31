@@ -1,0 +1,7 @@
++ Params:
+  - None
++ Returns:
+   - Info: starts smbserver on port 445 with:
+   - smb2support and guest access permissions
+     - will obtain ntlm hashes and host files
+       - logs can be viewed within the "event-viewer" tab
