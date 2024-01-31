@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "uOXISPdV1uvuS2JnN5JsEH+u8Ky/UT9t4WRavXRJWgNxBXkscwpGavdB4F+osF5sLCJgMFuKQgwj6f/w1qZNZw==",
+  "success": true,
+  "projectFilePath": "/opt/dev/assessment-toolset/ProtoHandler/APISERVER/ApiModels/ApiModels.csproj",
+  "expectedPackageFiles": [
+    "/home/osi/.nuget/packages/microsoft.netcore.app.runtime.linux-x64/7.0.8/microsoft.netcore.app.runtime.linux-x64.7.0.8.nupkg.sha512",
+    "/home/osi/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-x64/7.0.8/microsoft.aspnetcore.app.runtime.linux-x64.7.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

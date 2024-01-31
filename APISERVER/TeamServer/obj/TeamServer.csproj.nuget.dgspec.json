@@ -1,0 +1,174 @@
+{
+  "format": 1,
+  "restore": {
+    "/opt/dev/assessment-toolset/ProtoHandler/APISERVER/TeamServer/TeamServer.csproj": {}
+  },
+  "projects": {
+    "/opt/dev/assessment-toolset/ProtoHandler/APISERVER/ApiModels/ApiModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/opt/dev/assessment-toolset/ProtoHandler/APISERVER/ApiModels/ApiModels.csproj",
+        "projectName": "ApiModels",
+        "projectPath": "/opt/dev/assessment-toolset/ProtoHandler/APISERVER/ApiModels/ApiModels.csproj",
+        "packagesPath": "/home/osi/.nuget/packages/",
+        "outputPath": "/opt/dev/assessment-toolset/ProtoHandler/APISERVER/ApiModels/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/osi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[7.0.8, 7.0.8]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[7.0.8, 7.0.8]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/osi/.dotnet/sdk/7.0.305/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "/opt/dev/assessment-toolset/ProtoHandler/APISERVER/TeamServer/TeamServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/opt/dev/assessment-toolset/ProtoHandler/APISERVER/TeamServer/TeamServer.csproj",
+        "projectName": "TeamServer",
+        "projectPath": "/opt/dev/assessment-toolset/ProtoHandler/APISERVER/TeamServer/TeamServer.csproj",
+        "packagesPath": "/home/osi/.nuget/packages/",
+        "outputPath": "/opt/dev/assessment-toolset/ProtoHandler/APISERVER/TeamServer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/osi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/home/osi/.dotnet/sdk/7.0.305/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/opt/dev/assessment-toolset/ProtoHandler/APISERVER/ApiModels/ApiModels.csproj": {
+                "projectPath": "/opt/dev/assessment-toolset/ProtoHandler/APISERVER/ApiModels/ApiModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Newtonsoft": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[7.0.8, 7.0.8]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[7.0.8, 7.0.8]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/osi/.dotnet/sdk/7.0.305/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

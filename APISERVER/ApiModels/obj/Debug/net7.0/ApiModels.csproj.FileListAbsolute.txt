@@ -1,0 +1,12 @@
+C:\Code\Framework\ApiModels\bin\Debug\net7.0\ApiModels.deps.json
+C:\Code\Framework\ApiModels\bin\Debug\net7.0\ApiModels.dll
+C:\Code\Framework\ApiModels\bin\Debug\net7.0\ApiModels.pdb
+C:\Code\Framework\ApiModels\obj\Debug\net7.0\ApiModels.csproj.AssemblyReference.cache
+C:\Code\Framework\ApiModels\obj\Debug\net7.0\ApiModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\Framework\ApiModels\obj\Debug\net7.0\ApiModels.AssemblyInfoInputs.cache
+C:\Code\Framework\ApiModels\obj\Debug\net7.0\ApiModels.AssemblyInfo.cs
+C:\Code\Framework\ApiModels\obj\Debug\net7.0\ApiModels.csproj.CoreCompileInputs.cache
+C:\Code\Framework\ApiModels\obj\Debug\net7.0\ApiModels.dll
+C:\Code\Framework\ApiModels\obj\Debug\net7.0\refint\ApiModels.dll
+C:\Code\Framework\ApiModels\obj\Debug\net7.0\ApiModels.pdb
+C:\Code\Framework\ApiModels\obj\Debug\net7.0\ref\ApiModels.dll
