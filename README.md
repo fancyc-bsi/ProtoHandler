@@ -19,6 +19,7 @@ Install docker as per your distro intructions, make sure to add your user to the
 ```bash
 docker build -t c2:latest .
 docker run --rm -it --net host --hostname c2 -v $PWD:/shared --name c2 c2:latest
+# If build fails - make sure you use dos2unix on the file docker is complaining about.
 ```
 
 
